@@ -1,10 +1,10 @@
 {
   "name": "squarespace-archiver",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Utility to scrape and archive a squarespace sh:wqop",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/mschlesk/squarespace-archiver/issues"
   },
-  "homepage": "https://github.com/mschlesk/squarespace-archiver#readme"
+  "homepage": "https://github.com/mschlesk/squarespace-archiver#readme",
+  "devDependencies": {
+    "jest": "^27.0.6"
+  }
 }
